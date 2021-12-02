@@ -1,0 +1,16 @@
+script: $..\obj_Car_Base\Collision
+description /// @description This will happen.
+
+script: $..\obj_Player\Step_0.gml
+description /// @description Player Input
+
+script: $..\obj_NPC\Create_0.gml
+description /// @description Initialize NPC
+
+script: $..\obj_NPC_Target\Create_0.gml
+description /// @description Initialize Race Target.
+
+Game speed set to 60
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'
