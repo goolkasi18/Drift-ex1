@@ -35,10 +35,27 @@ if(phy_speed > 1){
             part_type_speed(smoke_part, 1, 2, 0, 0);
             part_type_direction(smoke_part, inertia_dir, inertia_dir, 0, 0);
             part_emitter_burst(psys, emm, smoke_part, 1);
-        }
-
-        
+        }   
     }
-
 }
 
+ if(place_meeting(x,y, o_deathZone)){
+
+phy_position_x = offRoad_x;
+phy_position_y = offRoad_y;
+phy_speed_x = 0;
+phy_speed_y = 0;
+ }
+//check to see if you're leaving the road, and saving 
+//that point until you are back on the road
+
+if (roadCheck && !place_meeting(x,y, o_road)){
+	offRoad_x = x;
+	offRoad_y = y;
+	roadCheck = false;
+}
+if (!roadCheck && place_meeting(x,y, o_road)){
+//	offRoad_x = x;
+	//offRoad_y = y;
+	roadCheck = true;
+}
