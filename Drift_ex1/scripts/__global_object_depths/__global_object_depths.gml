@@ -10,6 +10,9 @@ function __global_object_depths() {
 	global.__objectDepths[2] = 0; // obj_NPC
 	global.__objectDepths[3] = -1; // obj_NPC_Target
 	global.__objectDepths[4] = 0; // obj_Grass_Zone
+	global.__objectDepths[5] = 0; // obj_Grass_Zone
+	global.__objectDepths[6] = 0; // obj_Grass_Zone
+	global.__objectDepths[7] = 0; // obj_Grass_Zone
 
 
 	global.__objectNames[0] = "obj_Car_Base";
@@ -17,6 +20,10 @@ function __global_object_depths() {
 	global.__objectNames[2] = "obj_NPC";
 	global.__objectNames[3] = "obj_NPC_Target";
 	global.__objectNames[4] = "obj_Grass_Zone";
+	global.__objectNames[5] = "o_road";
+	global.__objectNames[6] = "o_deathZone";
+	global.__objectNames[7] = "o_checkpoint";
+	
 
 
 	// create another array that has the correct entries
