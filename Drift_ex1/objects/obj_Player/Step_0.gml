@@ -74,10 +74,11 @@ if (place_meeting(x,y, o_checkpoint) && (instance_place(x, y, o_checkpoint) != c
 	
 	if (checkpointsCrossed < 3){
 		checkpointsCrossed ++;
+		
 	}else{
 		if (global.lapNumber < 3){
 			checkpointsCrossed = 0;
-			global.lapNumber ++;
+			global.lapNumber ++; 
 		}else{
 				global.win = true;
 				instance_create(room_width/2, room_height/2, o_genericButton);
