@@ -7,6 +7,7 @@
     {"id":{"name":"o_deathZone","path":"objects/o_deathZone/o_deathZone.yy",},"order":11,},
     {"id":{"name":"spr_Smoke_Part","path":"sprites/spr_Smoke_Part/spr_Smoke_Part.yy",},"order":7,},
     {"id":{"name":"s_checkpoint","path":"sprites/s_checkpoint/s_checkpoint.yy",},"order":16,},
+    {"id":{"name":"o_switchBullet","path":"objects/o_switchBullet/o_switchBullet.yy",},"order":16,},
     {"id":{"name":"spr_Zone","path":"sprites/spr_Zone/spr_Zone.yy",},"order":9,},
     {"id":{"name":"spr_Dirt_Part","path":"sprites/spr_Dirt_Part/spr_Dirt_Part.yy",},"order":11,},
     {"id":{"name":"o_checkpoint","path":"objects/o_checkpoint/o_checkpoint.yy",},"order":13,},
@@ -32,6 +33,7 @@
     {"id":{"name":"obj_Grass_Zone","path":"objects/obj_Grass_Zone/obj_Grass_Zone.yy",},"order":9,},
     {"id":{"name":"s_roadZone","path":"sprites/s_roadZone/s_roadZone.yy",},"order":15,},
     {"id":{"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},"order":1,},
+    {"id":{"name":"s_switchBullet","path":"sprites/s_switchBullet/s_switchBullet.yy",},"order":19,},
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},"order":1,},
   ],
   "Options": [

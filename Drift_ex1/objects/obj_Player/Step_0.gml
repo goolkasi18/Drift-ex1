@@ -68,6 +68,17 @@ if (keyboard_check(vk_space) && shootTime) {
 	shootTime = false;
 }
 
+if (keyboard_check(vk_shift) && shootTime) {
+	var b = instance_create(x,y,o_switchBullet);       
+	b.direction = image_angle - 90;
+	b.phy_speed_x = lengthdir_x(20,b.direction);
+	b.phy_speed_y = lengthdir_y(20,b.direction);
+	alarm[0] = 30;
+	shootTime = false;
+}
+
+
+
 //checkpoint collision stuff
 if (place_meeting(x,y, o_checkpoint) && (instance_place(x, y, o_checkpoint) != colliding_checkpoint_id)){
 	colliding_checkpoint_id = instance_place(x, y, o_checkpoint);
