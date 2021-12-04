@@ -68,7 +68,7 @@ if (keyboard_check(vk_space) && shootTime) {
 	shootTime = false;
 }
 
-if (keyboard_check(vk_shift) && shootTime) {
+if (keyboard_check_pressed(vk_shift) && shootTime && global.switchHitTimer == false) {
 	var b = instance_create(x,y,o_switchBullet);       
 	b.direction = image_angle - 90;
 	b.phy_speed_x = lengthdir_x(20,b.direction);

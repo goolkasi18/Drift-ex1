@@ -5,21 +5,36 @@
 event_inherited();
 
 if (switchHit){
-	image_blend = c_fuchsia;
-	alarm[0] = 180;
+	//show_debug_message("asdoasdo");
+	image_alpha = 0.6;
+	alarm[0] = 120;
 	switchHit = false;
 }
 
-if (keyboard_check(vk_shift) && (image_blend = c_fuchsia)){
-	yourX = x;
-	yourY = y;
+if (keyboard_check_pressed(vk_shift) && image_alpha != 1){
+	image_alpha = 1;
+	yourX = phy_position_x;
+	yourY = phy_position_y;
+	yourXSpeed = phy_speed_x;
+	yourYSpeed = phy_speed_y;
+	yourRotation = phy_rotation;
+	
 	theirX = obj_Player.x;
 	theirY = obj_Player.y;
+	theirXSpeed = obj_Player.phy_speed_x;
+	theirYSpeed = obj_Player.phy_speed_y;
+	theirRotation = obj_Player.phy_rotation;
 	
-	obj_Player.x = yourX;
-	obj_Player.y = yourY;
-	x = theirX;
-	y = theirY;
+	obj_Player.phy_position_x = yourX;
+	obj_Player.phy_position_y = yourY;
+	obj_Player.phy_speed_x = yourXSpeed;
+	obj_Player.phy_speed_y = yourYSpeed;
+	obj_Player.phy_rotation = yourRotation;
 	
-	image_blend = c_white;
+	phy_position_x = theirX;
+	phy_position_y = theirY;
+	phy_speed_x = theirXSpeed;
+	phy_speed_y = theirYSpeed;
+	phy_rotation = theirRotation;
 }
+
