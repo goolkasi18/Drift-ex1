@@ -54,6 +54,7 @@ if(keyboard_check(vk_up)){
 if(keyboard_check(vk_down)){
     phy_speed_x = lerp(phy_speed_x, 0, 0.05);
     phy_speed_y = lerp(phy_speed_y, 0, 0.05);    
+	global.win = true;
 }
 
 
@@ -85,14 +86,13 @@ if (place_meeting(x,y, o_checkpoint) && (instance_place(x, y, o_checkpoint) != c
 	
 	if (checkpointsCrossed < 3){
 		checkpointsCrossed ++;
-		
 	}else{
-		if (global.lapNumber < 3){
-			checkpointsCrossed = 0;
+		if (global.lapNumber < 2){
+			checkpointsCrossed = 1;
 			global.lapNumber ++; 
 		}else{
 				global.win = true;
-				instance_create(room_width/2, room_height/2, o_genericButton);
+				//put the lose in her too when we have the condition
 				
 		}
 	}

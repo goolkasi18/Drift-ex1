@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.levelNumber = 1;
-global.lapNumber = 1;
-oneTime = true;
+x = display_get_width()/2;
+y = display_get_height()/2;
