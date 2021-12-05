@@ -54,7 +54,7 @@ if(keyboard_check(vk_up)){
 if(keyboard_check(vk_down)){
     phy_speed_x = lerp(phy_speed_x, 0, 0.05);
     phy_speed_y = lerp(phy_speed_y, 0, 0.05);    
-	global.win = true;
+	//global.win = true;
 }
 
 
@@ -69,6 +69,7 @@ if (keyboard_check(vk_space) && shootTime) {
 	shootTime = false;
 }
 
+//switchBullet on the same timer as regular ones- checks to make sure one didn't recently hit
 if (keyboard_check_pressed(vk_shift) && shootTime && global.switchHitTimer == false) {
 	var b = instance_create(x,y,o_switchBullet);       
 	b.direction = image_angle - 90;
@@ -84,6 +85,7 @@ if (keyboard_check_pressed(vk_shift) && shootTime && global.switchHitTimer == fa
 if (place_meeting(x,y, o_checkpoint) && (instance_place(x, y, o_checkpoint) != colliding_checkpoint_id)){
 	colliding_checkpoint_id = instance_place(x, y, o_checkpoint);
 	
+	//# of checkpoints needed to complete a lap
 	if (checkpointsCrossed < 3){
 		checkpointsCrossed ++;
 	}else{
@@ -92,18 +94,8 @@ if (place_meeting(x,y, o_checkpoint) && (instance_place(x, y, o_checkpoint) != c
 			global.lapNumber ++; 
 		}else{
 				global.win = true;
-				//put the lose in her too when we have the condition
+				//put the lose in here too when we have the condition
 				
 		}
 	}
-}
-
-//helping me diagnosis why the fuck the death zone isnt working
-if(keyboard_check(vk_alt)){	
-	show_debug_message("-------------");
-show_debug_message(offRoad_x);
-show_debug_message(offRoad_y);
-show_debug_message(x);
-show_debug_message(y);
-show_debug_message("-------------");
 }
