@@ -54,7 +54,7 @@ if(keyboard_check(vk_up)){
 if(keyboard_check(vk_down)){
     phy_speed_x = lerp(phy_speed_x, 0, 0.05);
     phy_speed_y = lerp(phy_speed_y, 0, 0.05);    
-	//global.win = true;
+	global.win = true;
 }
 
 

@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"s_retryButton","path":"sprites/s_retryButton/s_retryButton.yy",},"order":17,},
     {"id":{"name":"spr_Car","path":"sprites/spr_Car/spr_Car.yy",},"order":1,},
+    {"id":{"name":"s_FinishLine","path":"sprites/s_FinishLine/s_FinishLine.yy",},"order":20,},
     {"id":{"name":"spr_Tyre_Part","path":"sprites/spr_Tyre_Part/spr_Tyre_Part.yy",},"order":3,},
     {"id":{"name":"spr_Target","path":"sprites/spr_Target/spr_Target.yy",},"order":5,},
     {"id":{"name":"o_deathZone","path":"objects/o_deathZone/o_deathZone.yy",},"order":11,},
@@ -34,6 +35,7 @@
     {"id":{"name":"obj_NPC","path":"objects/obj_NPC/obj_NPC.yy",},"order":5,},
     {"id":{"name":"obj_NPC_Target","path":"objects/obj_NPC_Target/obj_NPC_Target.yy",},"order":7,},
     {"id":{"name":"obj_Grass_Zone","path":"objects/obj_Grass_Zone/obj_Grass_Zone.yy",},"order":9,},
+    {"id":{"name":"o_FinishLine","path":"objects/o_FinishLine/o_FinishLine.yy",},"order":18,},
     {"id":{"name":"s_roadZone","path":"sprites/s_roadZone/s_roadZone.yy",},"order":15,},
     {"id":{"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},"order":1,},
     {"id":{"name":"s_switchBullet","path":"sprites/s_switchBullet/s_switchBullet.yy",},"order":19,},

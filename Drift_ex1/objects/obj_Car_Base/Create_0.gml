@@ -36,3 +36,5 @@ roadCheck = true;
 offRoad_x = x;
 offRoad_y = y;
 offRoad_rot = 0;
+
+switchHit = false;
