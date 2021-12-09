@@ -41,6 +41,7 @@ forward_x = lengthdir_x(155, -phy_rotation - 90) * gasValue;
 forward_y = lengthdir_y(155, -phy_rotation - 90) * gasValue; 
 physics_apply_force(x, y, forward_x, forward_y);
 
+
 //Inherit Parent
 event_inherited();
 
@@ -57,30 +58,33 @@ if (keyboard_check(vk_space) && shootTime) {
 	shootTime = false;
 }
 
+//switchBullet on the same timer as regular ones- checks to make sure one didn't recently hit
+if (keyboard_check_pressed(vk_shift) && shootTime && global.switchHitTimer == false) {
+	var b = instance_create(x,y,o_switchBullet);       
+	b.direction = image_angle - 90;
+	b.phy_speed_x = lengthdir_x(20,b.direction);
+	b.phy_speed_y = lengthdir_y(20,b.direction);
+	alarm[0] = 30;
+	shootTime = false;
+}
+
+
+
 //checkpoint collision stuff
 if (place_meeting(x,y, o_checkpoint) && (instance_place(x, y, o_checkpoint) != colliding_checkpoint_id)){
 	colliding_checkpoint_id = instance_place(x, y, o_checkpoint);
 	
+	//# of checkpoints needed to complete a lap
 	if (checkpointsCrossed < 3){
 		checkpointsCrossed ++;
 	}else{
-		if (global.lapNumber < 3){
-			checkpointsCrossed = 0;
-			global.lapNumber ++;
+		if (global.lapNumber < 2){
+			checkpointsCrossed = 1;
+			global.lapNumber ++; 
 		}else{
 				global.win = true;
-				instance_create(room_width/2, room_height/2, o_genericButton);
+				//put the lose in here too when we have the condition
 				
 		}
 	}
-}
-
-//helping me diagnosis why the fuck the death zone isnt working
-if(keyboard_check(vk_alt)){	
-	show_debug_message("-------------");
-show_debug_message(offRoad_x);
-show_debug_message(offRoad_y);
-show_debug_message(x);
-show_debug_message(y);
-show_debug_message("-------------");
 }

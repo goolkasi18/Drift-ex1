@@ -45,17 +45,25 @@ phy_position_x = offRoad_x;
 phy_position_y = offRoad_y;
 phy_speed_x = 0;
 phy_speed_y = 0;
+phy_rotation = offRoad_rot; 
  }
+ 
 //check to see if you're leaving the road, and saving 
 //that point until you are back on the road
-
 if (roadCheck && !place_meeting(x,y, o_road)){
-	offRoad_x = x;
-	offRoad_y = y;
+	
+	offRoad_x = phy_position_x;
+	offRoad_y = phy_position_y;
+	offRoad_rot = phy_rotation;
+	
+
 	roadCheck = false;
 }
 if (!roadCheck && place_meeting(x,y, o_road)){
-//	offRoad_x = x;
-	//offRoad_y = y;
+//thought this might help orient car in right direction when spawns... but I dont think its possible
+//var colliding_road = instance_place(x, y, o_road);
+//if get
+	
+	
 	roadCheck = true;
 }
