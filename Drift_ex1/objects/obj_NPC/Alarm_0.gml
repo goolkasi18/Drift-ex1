@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-other.hp -= damage;
 
-instance_destroy();
+//image_blend = c_white;
+
+image_alpha = 1;
+global.switchHitTimer = false;
