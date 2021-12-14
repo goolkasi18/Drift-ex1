@@ -1,5 +1,4 @@
 image_index = irandom(2);
-image_speed = 0;
 angle_dif = 0;
 
 //~~Partical Systems~~
@@ -35,3 +34,5 @@ part_type_alpha2(dirt_part, 0.5, 0);
 switchHit = false;
 
 boost = 1;
+
+release = false;

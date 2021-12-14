@@ -1,7 +1,8 @@
 /// @description x and y here should be relative to the view(port?), not the room! :)
 
 draw_text(30, 30, "Level #"+ string(global.levelNumber));
-draw_text(30, 50, "Lap #"+ string(Player.laps + 1));
+draw_text(30, 50, "Lap #"+ string(obj_Player.laps + 1));
+
 
 
 if(global.won && !instance_exists(o_wonButton)){ //let's move this into the player object on finding.

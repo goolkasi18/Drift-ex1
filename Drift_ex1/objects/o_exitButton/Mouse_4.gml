@@ -1,0 +1,1 @@
+room_goto_next(); //kill application? help.
