@@ -1,8 +1,7 @@
-/// @description Initialize Race Target.
-randomize();
-path[0] = path_RaceLine1;
-path[1] = path_RaceLine2;
-path[2] = path_RaceLine3;
+/// @description Choose a random track and move
+path[0] = L1_1;
+path[1] = L1_2;
+path[2] = L1_3;
 
-path_start(path[irandom(2)], 2.0 + random(0.5), 1, 1);
-
+//spd = irandom(1) + 2.0;
+path_start(path[irandom(2)], 2.9 , path_action_restart, true);

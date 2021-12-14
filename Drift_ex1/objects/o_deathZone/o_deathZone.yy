@@ -4,7 +4,7 @@
     "path": "sprites/s_badZone/s_badZone.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

@@ -37,8 +37,8 @@ else if(gamepad_button_value(0, gp_shoulderlb) > 0.2){
 	gasValue = gamepad_button_value(0, gp_shoulderlb) * -1;
 }
 
-forward_x = lengthdir_x(155, -phy_rotation - 90) * gasValue;
-forward_y = lengthdir_y(155, -phy_rotation - 90) * gasValue; 
+forward_x = lengthdir_x(155, -phy_rotation - 90) * gasValue * boost;
+forward_y = lengthdir_y(155, -phy_rotation - 90) * gasValue * boost; 
 physics_apply_force(x, y, forward_x, forward_y);
 
 
@@ -75,14 +75,14 @@ if (place_meeting(x,y, o_checkpoint) && (instance_place(x, y, o_checkpoint) != c
 	colliding_checkpoint_id = instance_place(x, y, o_checkpoint);
 	
 	//# of checkpoints needed to complete a lap
-	if (checkpointsCrossed < 3){
+	if (checkpointsCrossed < 2){
 		checkpointsCrossed ++;
 	}else{
-		if (global.lapNumber < 2){
-			checkpointsCrossed = 1;
-			global.lapNumber ++; 
+		if (laps < 2){
+			laps ++; 
+			checkpointsCrossed = 0;
 		}else{
-				global.win = true;
+				global.won = true;
 				//put the lose in here too when we have the condition
 				
 		}
