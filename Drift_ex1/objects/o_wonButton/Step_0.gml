@@ -5,9 +5,6 @@
 //x = view_get_xport(0) + 320;
 //y = view_get_yport(0) + 180;
 
-x = view_xport[0] + 320;
-y = view_xport[0] + 180;
-
 
 //x = display_get_width()/2;
 //y = display_get_height()/2;

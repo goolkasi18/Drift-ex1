@@ -57,9 +57,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_NewLevel1","path":"rooms/rm_NewLevel1/rm_NewLevel1.yy",},},
+    {"roomId":{"name":"rm_NewLevel2","path":"rooms/rm_NewLevel2/rm_NewLevel2.yy",},},
     {"roomId":{"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},},
     {"roomId":{"name":"rm_Level2","path":"rooms/rm_Level2/rm_Level2.yy",},},
-    {"roomId":{"name":"rm_NewLevel2","path":"rooms/rm_NewLevel2/rm_NewLevel2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":4,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -89,7 +89,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.7.603",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "Drift_ex1",

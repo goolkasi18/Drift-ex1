@@ -2,7 +2,7 @@
 event_inherited();
 my_target = instance_create(x, y, obj_NPC_Target);
 
-hp = 4;
+hp = 100;
 
 switchHit = false;
 global.switchHitTimer = false;
