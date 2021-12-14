@@ -32,6 +32,9 @@ else if(gamepad_button_value(0, gp_shoulderrb) > 0.2){
 //~~BRAKE/REVERSE~~
 if(keyboard_check(vk_down) || keyboard_check(ord("S"))){
 	gasValue = -1;
+	//for testing purposes
+	global.win = true;
+	
 }
 else if(gamepad_button_value(0, gp_shoulderlb) > 0.2){
 	gasValue = gamepad_button_value(0, gp_shoulderlb) * -1;
@@ -54,7 +57,7 @@ if (keyboard_check(vk_space) && shootTime) {
 	b.direction = image_angle - 90;
 	b.phy_speed_x = lengthdir_x(20,b.direction + point_x);
 	b.phy_speed_y = lengthdir_y(20,b.direction + point_y);
-	alarm[0] = 30;
+	alarm[0] = 5;
 	shootTime = false;
 }
 
