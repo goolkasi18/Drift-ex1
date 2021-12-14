@@ -4,7 +4,7 @@ event_inherited();
 
 hp = 25;
 target = instance_create(x, y, obj_NPC_Target);
-headstart = irandom_range(1,60*20);
+headstart = irandom_range(1,60*15);
 boost = target.boost;
 alarm[1] = headstart;
 
