@@ -14,7 +14,7 @@ if(phy_speed > 1){
         part_emitter_burst(psys, emm, tire_part, 5);
     
         //emit surface based particles.
-        if(place_meeting(x,y, obj_Grass_Zone)){
+        if(place_meeting(x,y, o_grassZone)){
             part_type_speed(dirt_part, 1, 2, 0, 0);
             part_type_orientation(dirt_part, -phy_rotation, -phy_rotation, 0, 0, 0);
             part_type_direction(dirt_part, -phy_rotation + 90, -phy_rotation + 90, 0, 0);
@@ -25,30 +25,4 @@ if(phy_speed > 1){
             part_emitter_burst(psys, emm, smoke_part, 1);
         }   
     }
-}
-
-//check to see if you're leaving the road, and saving 
-//that point until you are back on the road
-if (roadCheck && !place_meeting(x,y, o_road)){
-	
-	offRoad_x = phy_position_x;
-	offRoad_y = phy_position_y;
-	offRoad_rot = phy_rotation;
-	
-
-	roadCheck = false;
-}
-if (!roadCheck && place_meeting(x,y, o_road)){
-//thought this might help orient car in right direction when spawns... but I dont think its possible
-//var colliding_road = instance_place(x, y, o_road);
-//if get	
-	roadCheck = true;
-}
-
-if(place_meeting(x,y, o_deathZone)){
-phy_position_x = offRoad_x;
-phy_position_y = offRoad_y;
-phy_speed_x = 0;
-phy_speed_y = 0;
-phy_rotation = offRoad_rot; 
 }

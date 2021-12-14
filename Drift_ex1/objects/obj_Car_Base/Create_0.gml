@@ -31,10 +31,6 @@ part_type_life(dirt_part, 10, 60);
 part_type_alpha2(dirt_part, 0.5, 0);
 
 
-roadCheck = true;
-offRoad_x = x;
-offRoad_y = y;
-offRoad_rot = 0;
 
 switchHit = false;
 

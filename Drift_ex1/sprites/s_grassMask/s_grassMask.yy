@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ed9c4918-91ae-46e8-a06d-c0226036f22e","path":"sprites/s_roadZone/s_roadZone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed9c4918-91ae-46e8-a06d-c0226036f22e","path":"sprites/s_roadZone/s_roadZone.yy",},"LayerId":{"name":"a25cd834-0cb8-4ec3-ab35-d792a3429817","path":"sprites/s_roadZone/s_roadZone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_roadZone","path":"sprites/s_roadZone/s_roadZone.yy",},"resourceVersion":"1.0","name":"ed9c4918-91ae-46e8-a06d-c0226036f22e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ed9c4918-91ae-46e8-a06d-c0226036f22e","path":"sprites/s_grassMask/s_grassMask.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ed9c4918-91ae-46e8-a06d-c0226036f22e","path":"sprites/s_grassMask/s_grassMask.yy",},"LayerId":{"name":"a25cd834-0cb8-4ec3-ab35-d792a3429817","path":"sprites/s_grassMask/s_grassMask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_grassMask","path":"sprites/s_grassMask/s_grassMask.yy",},"resourceVersion":"1.0","name":"ed9c4918-91ae-46e8-a06d-c0226036f22e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_roadZone","path":"sprites/s_roadZone/s_roadZone.yy",},
+    "spriteId": {"name":"s_grassMask","path":"sprites/s_grassMask/s_grassMask.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"13c07fda-6050-481e-901f-6f90b82883a7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed9c4918-91ae-46e8-a06d-c0226036f22e","path":"sprites/s_roadZone/s_roadZone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"03b5d095-4eb0-4331-b1a7-c9a75114c1bb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed9c4918-91ae-46e8-a06d-c0226036f22e","path":"sprites/s_grassMask/s_grassMask.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_roadZone","path":"sprites/s_roadZone/s_roadZone.yy",},
+    "parent": {"name":"s_grassMask","path":"sprites/s_grassMask/s_grassMask.yy",},
     "resourceVersion": "1.3",
-    "name": "s_roadZone",
+    "name": "s_grassMask",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":39.0,"displayName":"default","resourceVersion":"1.0","name":"a25cd834-0cb8-4ec3-ab35-d792a3429817","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a25cd834-0cb8-4ec3-ab35-d792a3429817","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_roadZone",
+  "name": "s_grassMask",
   "tags": [],
   "resourceType": "GMSprite",
 }

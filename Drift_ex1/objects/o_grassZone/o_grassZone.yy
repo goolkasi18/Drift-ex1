@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_roadMask",
-    "path": "sprites/s_roadMask/s_roadMask.yy",
+    "name": "s_grassMask",
+    "path": "sprites/s_grassMask/s_grassMask.yy",
   },
   "solid": false,
   "visible": false,
@@ -33,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_road",
+  "name": "o_grassZone",
   "tags": [],
   "resourceType": "GMObject",
 }
