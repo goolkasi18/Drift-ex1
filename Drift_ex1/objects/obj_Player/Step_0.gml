@@ -100,7 +100,7 @@ if (gasValue = 1 || gasValue = -1){
 		if (checkpointsCrossed < 2){
 			checkpointsCrossed ++;
 		}else{
-			if (laps < 2){
+			if (laps < maxLaps){
 				laps ++; 
 				checkpointsCrossed = 0;
 			}else{

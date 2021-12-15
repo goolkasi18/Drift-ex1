@@ -1,9 +1,9 @@
 /// @description x and y here should be relative to the view(port?), not the room! :)
 
 draw_set_font(font_topLeft);
-draw_set_colour(c_black);
-draw_text(30, 30, "Level #"+ string(global.levelNumber));
-draw_text(30, 80, "Lap #"+ string(obj_Player.laps + 1));
+
+draw_text(30, 30, "Level # "+ string(global.levelNumber));
+draw_text(30, 60, "Lap # "+ string(obj_Player.laps) + "/" + string(obj_Player.maxLaps));
 
 
 if(global.won && !instance_exists(o_wonButton)){ //let's move this into the player object on finding.
@@ -15,7 +15,7 @@ if(global.won && !instance_exists(o_wonButton)){ //let's move this into the play
 }
 
 if (room = rm_MainMenu){
-	draw_text(64, room_height-64, "Created by Austin & Liam")
+	draw_text(64, room_height-128, "Created by Austin & Liam.")
 }
 
 //var pc;
