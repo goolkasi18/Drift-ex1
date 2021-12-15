@@ -1,4 +1,5 @@
 if(offroad){
+	audio_play_sound_at(SoundCrashIntoWall, x, y, 0, 100, 300, 1, false, 1);
 	phy_position_x = offRoad_x;
 	phy_position_y = offRoad_y;
 	phy_speed_x = 0;
