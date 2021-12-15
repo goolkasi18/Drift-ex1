@@ -8,3 +8,5 @@ checkpointsCrossed = 0;
 //checkpointReady = true;
 
 colliding_checkpoint_id = noone;
+
+engineSound = false;

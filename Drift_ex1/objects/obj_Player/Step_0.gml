@@ -43,9 +43,23 @@ if(release){
 	physics_apply_force(x, y, forward_x, forward_y);
 
 
+if (!audio_is_playing(Sound_CarIdle) && gasValue == 1)
+{
+	show_debug_message("safsafasf");
+	audio_play_sound_at(Sound_CarIdle, x, y, 0, 100, 300, 1, true, 1);
+}
+
+//play idle noise!
+if (gasValue = 1 || gasValue = -1){
+	//sound_volume(, 1);
+	 audio_sound_gain(Sound_CarIdle, 1, 0);
+	
+}else{
+	 audio_sound_gain(Sound_CarIdle, 0.6, 0);
+}
+
 	//Inherit Parent
 	event_inherited();
-
 
 	//~~SHOOTING~~
 	if (keyboard_check(vk_space) && shootTime) {
@@ -55,8 +69,15 @@ if(release){
 		b.direction = image_angle - 90;
 		b.phy_speed_x = lengthdir_x(20,b.direction + point_x);
 		b.phy_speed_y = lengthdir_y(20,b.direction + point_y);
-		alarm[0] = 3;
+		alarm[0] = 10;
 		shootTime = false;
+		//shoot them bullets boi
+		if (alarm[2] == -1 || alarm[2] == 0)
+		{
+			audio_play_sound_at(SoundBullet, x, y, 0, 100, 300, 1, false, 1);
+			//show_debug_message("sdfsdgds");
+			alarm[2] = 12;
+		}
 	}
 
 	//switchBullet on the same timer as regular ones- checks to make sure one didn't recently hit
@@ -68,8 +89,6 @@ if(release){
 		alarm[0] = 30;
 		shootTime = false;
 	}
-
-
 
 	//checkpoint collision stuff
 	if (place_meeting(x,y, o_checkpoint) && (instance_place(x, y, o_checkpoint) != colliding_checkpoint_id)){

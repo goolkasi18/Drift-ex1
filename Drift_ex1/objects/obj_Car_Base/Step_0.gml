@@ -26,9 +26,3 @@ if(phy_speed > 1){
         }   
     }
 }
-
-if (!audio_exists(Sound_CarIdle))
-{
-	show_debug_message("hi motherfucker");
-	audio_play_sound(Sound_CarIdle, 0, true);
-}
