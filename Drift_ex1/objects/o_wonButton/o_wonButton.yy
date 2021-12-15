@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_nextButton",
-    "path": "sprites/s_nextButton/s_nextButton.yy",
+    "name": "s_buttonPlay",
+    "path": "sprites/s_buttonPlay/s_buttonPlay.yy",
   },
   "solid": false,
   "visible": true,

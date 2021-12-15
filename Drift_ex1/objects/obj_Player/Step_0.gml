@@ -81,15 +81,17 @@ if (gasValue = 1 || gasValue = -1){
 	}
 
 	//switchBullet on the same timer as regular ones- checks to make sure one didn't recently hit
-	if (keyboard_check_pressed(vk_shift) && shootTime && global.switchHitTimer == false) {
+	if (keyboard_check_pressed(vk_shift) && switchShootTime && global.switchHitTimer == false) {
 		var b = instance_create(x,y,o_switchBullet);       
 		b.direction = image_angle - 90;
 		b.phy_speed_x = lengthdir_x(20,b.direction);
 		b.phy_speed_y = lengthdir_y(20,b.direction);
-		alarm[0] = 30;
-		shootTime = false;
+		alarm[3] = 180;
+		switchShootTime = false;
 	}
-
+	
+	global.switchTime = alarm[3];
+	
 	//checkpoint collision stuff
 	if (place_meeting(x,y, o_checkpoint) && (instance_place(x, y, o_checkpoint) != colliding_checkpoint_id)){
 		colliding_checkpoint_id = instance_place(x, y, o_checkpoint);

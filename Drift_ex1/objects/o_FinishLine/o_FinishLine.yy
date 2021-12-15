@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_FinishLine",
-    "path": "sprites/s_FinishLine/s_FinishLine.yy",
+    "name": "s_startLine",
+    "path": "sprites/s_startLine/s_startLine.yy",
   },
   "solid": false,
   "visible": true,

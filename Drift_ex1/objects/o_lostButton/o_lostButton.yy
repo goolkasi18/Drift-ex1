@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_retryButton",
-    "path": "sprites/s_retryButton/s_retryButton.yy",
+    "name": "s_buttonRedo",
+    "path": "sprites/s_buttonRedo/s_buttonRedo.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_exitButton",
-    "path": "sprites/s_exitButton/s_exitButton.yy",
+    "name": "s_buttonCancel",
+    "path": "sprites/s_buttonCancel/s_buttonCancel.yy",
   },
   "solid": false,
   "visible": true,
