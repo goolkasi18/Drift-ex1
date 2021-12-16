@@ -7,7 +7,7 @@ if(phy_speed > 1.5){
     
     angle_dif = abs(angle_difference(forward_dir, inertia_dir));
     
-	//plays the screetching sound
+	//plays the screetching sound at more drastic turns
 	if(angle_dif > 80 && angle_dif < 150){
 		if (object_index == obj_Player && brakeShriek){
 			audio_play_sound(SoundCarBrakeShriek, 0, false);

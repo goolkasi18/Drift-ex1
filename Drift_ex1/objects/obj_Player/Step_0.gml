@@ -77,13 +77,13 @@ if (gasValue = 1 || gasValue = -1){
 		b.direction = image_angle - 90;
 		b.phy_speed_x = lengthdir_x(20,b.direction + point_x);
 		b.phy_speed_y = lengthdir_y(20,b.direction + point_y);
-		alarm[0] = 9;
+		alarm[0] = 11;
 		shootTime = false;
 		//shoot them bullets boi
 		if (alarm[2] == -1 || alarm[2] == 0)
 		{
-			audio_play_sound_at(SoundBullet, x, y, 0, 100, 300, 1, false, 1);
-			alarm[2] = 10;
+			audio_play_sound_at(SoundBullet, x, y, 0, 100, 300, 1, false, 3);
+			alarm[2] = 8;
 		}
 	}
 

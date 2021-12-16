@@ -5,8 +5,8 @@ crashSound = true;
 shootTime = true;
 switchShootTime = true;
 spread = 0.2;
-laps = 1;
-checkpointsCrossed = 0;
+laps = 0;
+checkpointsCrossed = 2;
 //checkpointReady = true;
 
 colliding_checkpoint_id = noone;
