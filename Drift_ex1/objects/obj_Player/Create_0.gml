@@ -19,3 +19,5 @@ if (room = rm_NewNEWLevel){
 {
 	maxLaps = 3;	
 }
+
+revSoundTrigger = true;

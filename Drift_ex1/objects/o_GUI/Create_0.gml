@@ -5,4 +5,8 @@ pc = 0;
 instance_create_layer(0, 0, "GUI", o_topRightExitButton);
 instance_create_layer(0, 0, "GUI", o_topRightRedoButton);
 
-audio_play_sound(SoundMusicGame, 0, true);
+if(room == rm_NewNEWLevel3){
+	audio_play_sound(SoundMusicGameAlt, 0, true);
+}else{
+	audio_play_sound(SoundMusicGame, 0, true);
+}

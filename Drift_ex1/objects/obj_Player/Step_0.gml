@@ -46,6 +46,15 @@ if(release){
 	else if(phy_speed < 4){influence = 420;}
 	else{influence = 460;}
 
+	//rev sound when speed up from a low speed
+	if(phy_speed < 0.25){
+		revSoundTrigger = true;	
+	}
+	if (phy_speed > 0.25 && revSoundTrigger){
+		audio_play_sound(SoundEngineRev, 3, false);
+		revSoundTrigger = false;
+	}
+	
 	forward_x = lengthdir_x(influence, -phy_rotation - 90) * gasValue * boost;
 	forward_y = lengthdir_y(influence, -phy_rotation - 90) * gasValue * boost; 
 	
@@ -62,8 +71,7 @@ if (!audio_is_playing(Sound_CarIdle) && gasValue == 1)
 
 //play idle noise!
 if (gasValue = 1 || gasValue = -1){
-	//sound_volume(, 1);
-	 audio_sound_gain(Sound_CarIdle, 1.2, 0);
+	 audio_sound_gain(Sound_CarIdle, 1.5, 0);
 	
 }else{
 	 audio_sound_gain(Sound_CarIdle, 0.8, 0);
