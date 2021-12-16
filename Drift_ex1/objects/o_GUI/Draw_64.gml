@@ -16,13 +16,15 @@ if(global.won && !instance_exists(o_wonButton)){ //let's move this into the play
 	draw_sprite(s_youLose, -1, (1280/2- s_youLose.sprite_width/2), 0);
 }
 
-if (room = rm_MainMenu){
-	draw_text(64, room_height-128, "Created by Austin & Liam.")
-}
-
 //var pc;
 pc = (180 - global.switchTime)/180 * 100;
-//draw_healthbar(100, 100, 500, 200, pc, c_black, c_red, c_lime, 0, true, true)
-
 
 draw_healthbar(1280/2 - 128, 720-64, 1280/2 + 128, 720-21, pc, c_black, c_red, c_lime, 0, true, true);
+
+draw_set_font(font_bottomSwitchBar);
+show_debug_message(string(pc));
+if (pc >= 100){
+	draw_text(1280/2 - 126, 720-54, "Switch Bullet READY");
+}else{
+	draw_text(1280/2 - 126, 720-54, "Switch Bullet NOT READY");
+}

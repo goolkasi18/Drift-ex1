@@ -5,4 +5,4 @@ pc = 0;
 instance_create_layer(0, 0, "GUI", o_topRightExitButton);
 instance_create_layer(0, 0, "GUI", o_topRightRedoButton);
 
-audio_play_sound(SoundBullet, 0, true);
+audio_play_sound(SoundMusicGame, 0, true);
