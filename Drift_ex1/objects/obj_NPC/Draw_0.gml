@@ -6,7 +6,7 @@ event_inherited();
 
 if (switchHit){
 	image_alpha = 0.6;
-	alarm[0] = 120;
+	alarm[0] = 180;
 	switchHit = false;
 }
 
