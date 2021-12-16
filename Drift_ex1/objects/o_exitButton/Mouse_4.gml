@@ -1,1 +1,1 @@
-room_goto_next(); //kill application? help.
+room_goto(rm_MainMenu);

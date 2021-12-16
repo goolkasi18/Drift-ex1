@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 2,
-  "bbox_right": 32,
-  "bbox_top": 1,
-  "bbox_bottom": 68,
+  "bbox_right": 29,
+  "bbox_top": 2,
+  "bbox_bottom": 61,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 35,
-  "height": 71,
+  "width": 32,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8277094e-2dfb-4ad0-b28c-de664944ccc0","path":"sprites/s_newPlayerCar/s_newPlayerCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8277094e-2dfb-4ad0-b28c-de664944ccc0","path":"sprites/s_newPlayerCar/s_newPlayerCar.yy",},"LayerId":{"name":"cdde1935-a34e-4106-83fe-958555b99db0","path":"sprites/s_newPlayerCar/s_newPlayerCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_newPlayerCar","path":"sprites/s_newPlayerCar/s_newPlayerCar.yy",},"resourceVersion":"1.0","name":"8277094e-2dfb-4ad0-b28c-de664944ccc0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"aef811a4-6746-4186-b823-e4382e340137","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"aef811a4-6746-4186-b823-e4382e340137","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"aef811a4-6746-4186-b823-e4382e340137","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_newPlayerCar","path":"sprites/s_newPlayerCar/s_newPlayerCar.yy",},
+    "spriteId": {"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9b3ccc5e-5740-48a0-b1d8-12e0b8b3be40","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8277094e-2dfb-4ad0-b28c-de664944ccc0","path":"sprites/s_newPlayerCar/s_newPlayerCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a65d3d0f-240e-46ab-aba2-abab7d5fc22c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aef811a4-6746-4186-b823-e4382e340137","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_newPlayerCar","path":"sprites/s_newPlayerCar/s_newPlayerCar.yy",},
+    "parent": {"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},
     "resourceVersion": "1.3",
-    "name": "s_newPlayerCar",
+    "name": "s_newCarNPC",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cdde1935-a34e-4106-83fe-958555b99db0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_newPlayerCar",
+  "name": "s_newCarNPC",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Car",
-    "path": "sprites/spr_Car/spr_Car.yy",
+    "name": "s_newPlayerCar",
+    "path": "sprites/s_newPlayerCar/s_newPlayerCar.yy",
   },
   "solid": false,
   "visible": true,
