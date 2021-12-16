@@ -1,6 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
+crashSound = true;
 shootTime = true;
 switchShootTime = true;
 spread = 0.2;

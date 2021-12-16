@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.39,
+  "volume": 0.79,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "SoundMusicGameAlt.wav",
-  "duration": 33.6,
+  "soundFile": "SoundSpecialBulletReady.wav",
+  "duration": 0.576916,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SoundMusicGameAlt",
+  "name": "SoundSpecialBulletReady",
   "tags": [],
   "resourceType": "GMSound",
 }

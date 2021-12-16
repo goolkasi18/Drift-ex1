@@ -7,8 +7,20 @@ if(phy_speed > 1.5){
     
     angle_dif = abs(angle_difference(forward_dir, inertia_dir));
     
+	//plays the screetching sound
+	if(angle_dif > 80 && angle_dif < 150){
+		if (object_index == obj_Player && brakeShriek){
+			audio_play_sound(SoundCarBrakeShriek, 0, false);
+			brakeShriek = false;
+			alarm[2] = 60;
+		}
+	   if (alarm[2] < 0){
+		   brakeShriek = true;
+	   }
+	}
+	
     if(angle_dif > 30 && angle_dif < 150){
-        
+	   
         //emit tyres onto floor.
         part_type_orientation(tire_part, -phy_rotation, -phy_rotation, 0, 0, 0);
         part_emitter_burst(psys, emm, tire_part, 5);

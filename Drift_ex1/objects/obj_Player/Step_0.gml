@@ -45,7 +45,6 @@ if(release){
 	else if(phy_speed < 0.5){influence = 750;}
 	else if(phy_speed < 4){influence = 420;}
 	else{influence = 460;}
-	show_debug_message(phy_speed);
 
 	forward_x = lengthdir_x(influence, -phy_rotation - 90) * gasValue * boost;
 	forward_y = lengthdir_y(influence, -phy_rotation - 90) * gasValue * boost; 
@@ -57,16 +56,17 @@ if(release){
 
 if (!audio_is_playing(Sound_CarIdle) && gasValue == 1)
 {
-	audio_play_sound_at(Sound_CarIdle, x, y, 0, 100, 300, 1, true, 1);
+	show_debug_message("sounmdplay");
+	audio_play_sound_at(Sound_CarIdle, x, y, 0, 100, 300, 1, true, 5);
 }
 
 //play idle noise!
 if (gasValue = 1 || gasValue = -1){
 	//sound_volume(, 1);
-	 audio_sound_gain(Sound_CarIdle, 1, 0);
+	 audio_sound_gain(Sound_CarIdle, 1.2, 0);
 	
 }else{
-	 audio_sound_gain(Sound_CarIdle, 0.6, 0);
+	 audio_sound_gain(Sound_CarIdle, 0.8, 0);
 }
 
 	//~~SHOOTING~~
@@ -87,7 +87,6 @@ if (gasValue = 1 || gasValue = -1){
 		}
 	}
 
-	//switchBullet on the same timer as regular ones- checks to make sure one didn't recently hit
 	if (keyboard_check_pressed(vk_shift) && switchShootTime && global.switchHitTimer == false) {
 		var b = instance_create(x,y,o_switchBullet);       
 		b.direction = image_angle - 90;
@@ -95,6 +94,7 @@ if (gasValue = 1 || gasValue = -1){
 		b.phy_speed_y = lengthdir_y(20,b.direction);
 		alarm[3] = 180;
 		switchShootTime = false;
+		audio_play_sound_at(SoundSpecialBullet, x, y, 0, 100, 300, 1, false, 1);
 	}
 	
 	global.switchTime = alarm[3];

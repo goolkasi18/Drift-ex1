@@ -30,7 +30,7 @@ part_type_size(dirt_part, 0.1, 2, 0.02, 0.1);
 part_type_life(dirt_part, 10, 60);
 part_type_alpha2(dirt_part, 0.5, 0);
 
-
+brakeShriek = true;
 
 switchHit = false;
 
