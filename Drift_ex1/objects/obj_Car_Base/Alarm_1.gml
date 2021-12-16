@@ -1,3 +1,3 @@
 /// @description Booster reset
 
-boost = 1;
+boost = 1; //RESET

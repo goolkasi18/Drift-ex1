@@ -33,7 +33,6 @@ if(release){
 	//~~BRAKE/REVERSE~~
 	if(keyboard_check(vk_down) || keyboard_check(ord("S"))){
 		gasValue = -1;
-		global.won = true;
 	}
 	else if(gamepad_button_value(0, gp_shoulderlb) > 0.2){
 		gasValue = gamepad_button_value(0, gp_shoulderlb) * -1;

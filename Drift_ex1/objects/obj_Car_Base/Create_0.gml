@@ -1,4 +1,4 @@
-image_index = irandom(2);
+//image_index = irandom(2);
 angle_dif = 0;
 
 //~~Partical Systems~~
