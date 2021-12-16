@@ -22,7 +22,6 @@ pc = (180 - global.switchTime)/180 * 100;
 draw_healthbar(1280/2 - 128, 720-64, 1280/2 + 128, 720-21, pc, c_black, c_red, c_lime, 0, true, true);
 
 draw_set_font(font_bottomSwitchBar);
-show_debug_message(string(pc));
 if (pc >= 100){
 	draw_text(1280/2 - 126, 720-54, "Switch Bullet READY");
 }else{

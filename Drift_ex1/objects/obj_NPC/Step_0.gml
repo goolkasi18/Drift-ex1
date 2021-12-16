@@ -1,8 +1,8 @@
 if(release){
 	//target.path_speed = my_target.path_speed * boost;
 	t_dir = point_direction(x, y, target.x, target.y);
-	t_xd = lengthdir_x(230*boost*boost, t_dir);
-	t_yd = lengthdir_y(230*boost*boost, t_dir);
+	t_xd = lengthdir_x(475*boost*boost, t_dir);
+	t_yd = lengthdir_y(475*boost*boost, t_dir);
     
 	physics_apply_force(x, y, t_xd, t_yd);
 	phy_rotation = -t_dir - 90;

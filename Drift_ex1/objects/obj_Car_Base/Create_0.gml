@@ -1,5 +1,6 @@
 //image_index = irandom(2);
 angle_dif = 0;
+resistance = 0;
 
 //~~Partical Systems~~
 psys = part_system_create();

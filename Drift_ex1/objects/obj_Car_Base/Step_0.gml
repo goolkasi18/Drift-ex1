@@ -1,5 +1,5 @@
 //Particle Systems
-if(phy_speed > 1){
+if(phy_speed > 1.5){
 
     part_emitter_region(psys, emm, x - 1, x + 1, y - 1, y + 1, ps_shape_rectangle, ps_distr_gaussian);
     inertia_dir = point_direction(x, y, x + phy_speed_x, y + phy_speed_y);
@@ -7,7 +7,7 @@ if(phy_speed > 1){
     
     angle_dif = abs(angle_difference(forward_dir, inertia_dir));
     
-    if(angle_dif > 20){
+    if(angle_dif > 30 && angle_dif < 150){
         
         //emit tyres onto floor.
         part_type_orientation(tire_part, -phy_rotation, -phy_rotation, 0, 0, 0);
@@ -24,5 +24,12 @@ if(phy_speed > 1){
             part_type_direction(smoke_part, inertia_dir, inertia_dir, 0, 0);
             part_emitter_burst(psys, emm, smoke_part, 1);
         }   
+		
+		//slow the palyer
+		resistance += 0.018;
+		
     }
-}
+	else{
+		resistance = 0;
+	}
+}else{resistance = 0;}

@@ -1,1 +1,2 @@
-offroad = false;	
+offroad = false;
+grass = 0;

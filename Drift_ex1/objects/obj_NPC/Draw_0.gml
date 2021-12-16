@@ -5,7 +5,6 @@
 event_inherited();
 
 if (switchHit){
-	//show_debug_message("asdoasdo");
 	image_alpha = 0.6;
 	alarm[0] = 120;
 	switchHit = false;

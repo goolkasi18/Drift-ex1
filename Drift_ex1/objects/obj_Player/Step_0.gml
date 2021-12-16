@@ -1,6 +1,9 @@
 /// @description Player Input
+//Inherit Parent
+event_inherited();
 
 if(release){
+	
 	//~~TURNING~~
 	turnValue = 0;
 	//Left
@@ -17,7 +20,7 @@ if(release){
 	else if(gamepad_axis_value(0, gp_axislh) > 0.3){
 		turnValue += gamepad_axis_value(0, gp_axislh);
 	}
-	phy_rotation += (3.3 * turnValue);
+	phy_rotation += (2.8 * turnValue);
 
 
 	//~~ACCELERATION~~
@@ -38,14 +41,22 @@ if(release){
 		gasValue = gamepad_button_value(0, gp_shoulderlb) * -1;
 	}
 
-	forward_x = lengthdir_x(155, -phy_rotation - 90) * gasValue * boost;
-	forward_y = lengthdir_y(155, -phy_rotation - 90) * gasValue * boost; 
+	if(phy_speed < 0.25){influence = 999;}
+	else if(phy_speed < 0.5){influence = 750;}
+	else if(phy_speed < 4){influence = 420;}
+	else{influence = 460;}
+	show_debug_message(phy_speed);
+
+	forward_x = lengthdir_x(influence, -phy_rotation - 90) * gasValue * boost;
+	forward_y = lengthdir_y(influence, -phy_rotation - 90) * gasValue * boost; 
+	
+	phy_linear_damping = 0.8 + resistance + grass;
+
 	physics_apply_force(x, y, forward_x, forward_y);
 
 
 if (!audio_is_playing(Sound_CarIdle) && gasValue == 1)
 {
-	show_debug_message("safsafasf");
 	audio_play_sound_at(Sound_CarIdle, x, y, 0, 100, 300, 1, true, 1);
 }
 
@@ -57,9 +68,6 @@ if (gasValue = 1 || gasValue = -1){
 }else{
 	 audio_sound_gain(Sound_CarIdle, 0.6, 0);
 }
-
-	//Inherit Parent
-	event_inherited();
 
 	//~~SHOOTING~~
 	if (keyboard_check(vk_space) && shootTime) {
@@ -75,7 +83,6 @@ if (gasValue = 1 || gasValue = -1){
 		if (alarm[2] == -1 || alarm[2] == 0)
 		{
 			audio_play_sound_at(SoundBullet, x, y, 0, 100, 300, 1, false, 1);
-			//show_debug_message("sdfsdgds");
 			alarm[2] = 10;
 		}
 	}
