@@ -14,11 +14,11 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_tutSheet","path":"objects/o_tutSheet/o_tutSheet.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_2B088078_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_bush","path":"objects/o_bush/o_bush.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5733333,"scaleY":0.5151515,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":-32.0,"resourceVersion":"1.0","name":"inst_2C61D7DB_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_bush","path":"objects/o_bush/o_bush.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-58.06347,"scaleX":0.5733333,"scaleY":0.5151515,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6.0,"y":305.0,"resourceVersion":"1.0","name":"inst_22C26247_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":-96.0,"resourceVersion":"1.0","name":"inst_5D396E59_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":587.0,"y":-94.0,"resourceVersion":"1.0","name":"inst_5D396E59_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_topRightExitButton","path":"objects/o_topRightExitButton/o_topRightExitButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":520.0,"y":295.0,"resourceVersion":"1.0","name":"inst_5B733C36","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_endSlate","path":"objects/o_endSlate/o_endSlate.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_6BE2126B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"ts_newNewTileset","path":"tilesets/ts_newNewTileset/ts_newNewTileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":5,"SerialiseHeight":3,"TileSerialiseData":[
 24,24,24,24,24,
@@ -31,11 +31,11 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_2B088078_1","path":"rooms/rm_endSlate/rm_endSlate.yy",},
     {"name":"inst_2C61D7DB_1","path":"rooms/rm_endSlate/rm_endSlate.yy",},
     {"name":"inst_22C26247_1","path":"rooms/rm_endSlate/rm_endSlate.yy",},
     {"name":"inst_5D396E59_1","path":"rooms/rm_endSlate/rm_endSlate.yy",},
     {"name":"inst_5B733C36","path":"rooms/rm_endSlate/rm_endSlate.yy",},
+    {"name":"inst_6BE2126B","path":"rooms/rm_endSlate/rm_endSlate.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
