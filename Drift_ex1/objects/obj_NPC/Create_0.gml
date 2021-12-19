@@ -3,7 +3,7 @@ event_inherited();
 
 
 image_index = irandom(13);
-hp = 15;
+hp = 11;
 target = instance_create(x, y, obj_NPC_Target);
 headstart = irandom_range(60*2,60*10);
 boost = target.boost;
