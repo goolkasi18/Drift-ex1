@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
-  "bbox_right": 31,
-  "bbox_top": 2,
-  "bbox_bottom": 65,
+  "bbox_left": 0,
+  "bbox_right": 33,
+  "bbox_top": 1,
+  "bbox_bottom": 66,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,24 +24,72 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
+    {"compositeImage":{"FrameId":{"name":"0c916479-8a03-4f8a-88a8-c89883e07c35","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0c916479-8a03-4f8a-88a8-c89883e07c35","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"0c916479-8a03-4f8a-88a8-c89883e07c35","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3c719de2-f167-4464-b27a-7e3095e7d475","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3c719de2-f167-4464-b27a-7e3095e7d475","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"3c719de2-f167-4464-b27a-7e3095e7d475","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f5dbcfb1-505d-44f9-be10-8a209f3ba642","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f5dbcfb1-505d-44f9-be10-8a209f3ba642","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"f5dbcfb1-505d-44f9-be10-8a209f3ba642","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a79b2796-fe8f-491e-a00c-89e1dab8ee62","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a79b2796-fe8f-491e-a00c-89e1dab8ee62","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"a79b2796-fe8f-491e-a00c-89e1dab8ee62","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b8a362cb-d6e1-4772-9694-b70853c3a106","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b8a362cb-d6e1-4772-9694-b70853c3a106","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"b8a362cb-d6e1-4772-9694-b70853c3a106","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"aef811a4-6746-4186-b823-e4382e340137","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"aef811a4-6746-4186-b823-e4382e340137","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"aef811a4-6746-4186-b823-e4382e340137","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"514c3c70-f9d1-4f5b-b45c-3ce63304693c","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"514c3c70-f9d1-4f5b-b45c-3ce63304693c","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"514c3c70-f9d1-4f5b-b45c-3ce63304693c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e6200449-42a5-4d31-9268-91e26524c544","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e6200449-42a5-4d31-9268-91e26524c544","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"e6200449-42a5-4d31-9268-91e26524c544","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d75299d5-5de6-493d-ba2b-358435b444de","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d75299d5-5de6-493d-ba2b-358435b444de","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"d75299d5-5de6-493d-ba2b-358435b444de","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6915531e-cb46-43c7-9b19-ac3a8835641a","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6915531e-cb46-43c7-9b19-ac3a8835641a","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"6915531e-cb46-43c7-9b19-ac3a8835641a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ffd32571-8b24-4d13-a694-297e1f8a14c2","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ffd32571-8b24-4d13-a694-297e1f8a14c2","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"ffd32571-8b24-4d13-a694-297e1f8a14c2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fcd4c357-97c1-4a5f-aa31-a97efded64bb","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fcd4c357-97c1-4a5f-aa31-a97efded64bb","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"fcd4c357-97c1-4a5f-aa31-a97efded64bb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"24e56d0e-07d1-4078-9822-64e857c98c03","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"24e56d0e-07d1-4078-9822-64e857c98c03","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"LayerId":{"name":"9f18a62e-16d1-449f-bfc6-ede6d41948a6","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","name":"24e56d0e-07d1-4078-9822-64e857c98c03","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_newCarNPC","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 13.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a65d3d0f-240e-46ab-aba2-abab7d5fc22c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aef811a4-6746-4186-b823-e4382e340137","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"47574ce9-0553-4eab-848f-50846477c2b2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c916479-8a03-4f8a-88a8-c89883e07c35","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ef1eaae9-6302-49cb-b46e-63bf36e2336e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c719de2-f167-4464-b27a-7e3095e7d475","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3bee7f2a-26d2-422f-8783-97baf30b5718","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5dbcfb1-505d-44f9-be10-8a209f3ba642","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e291c6ab-4dcf-4afd-ade7-2204d2259a56","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a79b2796-fe8f-491e-a00c-89e1dab8ee62","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7342aa22-12ce-4494-914e-cdaa96cb93ee","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8a362cb-d6e1-4772-9694-b70853c3a106","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a65d3d0f-240e-46ab-aba2-abab7d5fc22c","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aef811a4-6746-4186-b823-e4382e340137","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"56c23a21-7911-469c-a4b1-a09bdf168cad","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"514c3c70-f9d1-4f5b-b45c-3ce63304693c","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f84c254a-28d7-45cb-bf7f-5f73ed53197b","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e6200449-42a5-4d31-9268-91e26524c544","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bc08ce53-33f3-43e1-a4cf-5282a3d40434","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d75299d5-5de6-493d-ba2b-358435b444de","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4de718d9-ca2b-4ec1-8976-a74051aeb581","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6915531e-cb46-43c7-9b19-ac3a8835641a","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"be8daf2a-a2b6-427b-bca5-47aaebb5438b","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ffd32571-8b24-4d13-a694-297e1f8a14c2","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c465e9de-6f25-46c9-9fe0-305cd4e16f86","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fcd4c357-97c1-4a5f-aa31-a97efded64bb","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fc1a12ab-c5e6-46d4-8ed4-2e5a98c81380","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"24e56d0e-07d1-4078-9822-64e857c98c03","path":"sprites/s_newCarNPC/s_newCarNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
