@@ -2,7 +2,7 @@
 event_inherited();
 
 
-hp = 25;
+hp = 15;
 target = instance_create(x, y, obj_NPC_Target);
 headstart = irandom_range(60*2,60*10);
 boost = target.boost;
